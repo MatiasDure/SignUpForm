@@ -105,7 +105,7 @@ form .user-input
     font-size: .8rem;
 }
 
-form > button[type="submit"]
+form > button[type="button"]
 {
     border: none;
     padding: 15px 40px;
@@ -157,6 +157,11 @@ label
 .error
 {
     border: 1px solid darkred;
+}
+
+.hide
+{
+    visibility:hidden;
 }
 
 input:focus
