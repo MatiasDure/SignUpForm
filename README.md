@@ -14,3 +14,4 @@ Tech Used:
     * HTML
     * CSS
     * Flexbox
+    * JavaScript
