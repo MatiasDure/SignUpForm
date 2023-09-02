@@ -99,6 +99,12 @@ form .user-input
     width: 40%;
 }
 
+.user-input > p
+{
+    color: darkred;
+    font-size: .8rem;
+}
+
 form > button[type="submit"]
 {
     border: none;
@@ -146,6 +152,17 @@ label
 .left-side-space
 {
     margin-left: 60px;
+}
+
+.error
+{
+    border: 1px solid darkred;
+}
+
+input:focus
+{
+    border: 1px solid darkblue;
+    box-shadow: 2px 2px 5px 0px rgba(120,120,120,0.6);
 }
 
 a
